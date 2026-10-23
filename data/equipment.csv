@@ -1,0 +1,121 @@
+species_id,species_en,weapon,weapon_jp,weapon_atk,weapon_unique,armor,hat,shoes,wear_def,price_weapon,price_armor,price_hat,price_shoes
+0x01,Pig,Pig Whip,ブタむち,58,,Pig Jacket,Pig Mask,Pig Shoes,65,25,12,10,5
+0x02,Rhino,Rhino Horn,サイホーン,236,,Rhino Armor,Rhino Cap,Rhino Clogs,241,13875,4162,3330,1665
+0x03,Lion,Lion Sword,ライオンソード,280,yes,Lion Coat,Lion Mask,Lion Shoes,248,45000,5412,4330,2165
+0x04,Koala,Koala Gloves,コアラグローブ,168,yes,Koala Coat,Koala Earmuffs,Koala Sneakers,155,14450,4324,3460,1730
+0x05,Tiger,Tiger Claw,トラの爪,312,,Tiger Pelt,Tiger Mask,Tiger Clogs,320,108250,28874,23100,11550
+0x06,Sheep,Sheep Dagger,ヒツジの短剣,216,,Sheep Sweater,Sheep Hat,Sheep Boots,224,1325,886,710,355
+0x07,Boar,Boar Knife,イノシシナイフ,142,,Boar Coat,Boar Hood,Boar Shoes,196,1400,562,450,225
+0x08,Urchin,Urchin-pick,ウニピック,280,,Urchin Guards,Urchin Band,Urchin Wellies,272,5550,1324,1060,530
+0x09,Mantis,Mantis Ax,カマキリ斧,184,yes,Mantis Shirt,Mantis Hardhat,Mantis Sneakers,176,4425,2950,2360,1180
+0x0a,Ant,Ant Sprayer,アリ酸ピストル,136,,Ant Pads,Ant Hachimaki,Ant Gaiters,160,1375,8674,6940,3470
+0x0b,Elephant,Elephant Nosepick,ゾウ鼻のムチ,310,,Elephant Jacket,Elephant Cap,Elephant Leggings,330,515000,206800,165440,82720
+0x0c,Bison,Bison Madu,バイソンマドゥ,298,,Bison Coat,Bison Helm,Bison Shoes,280,35250,7936,6350,3175
+0x0d,Triceratops,Triceratops Horn,トリケラホーン,519,yes,Triceratops Mail,Triceratops Cover,Triceratops Shoes,506,1007500,268750,215000,107500
+0x0e,Dragon,Dragon Sword,ドラゴンソード,750,yes,Dragon Sash,Dragon Helm,Dragon Boots,600,5000000,1604936,1283950,641975
+0x0f,Giraffe,Giraffe Spear,キリンの首槍,294,,Giraffe PJs,Giraffe Hat,Giraffe Clogs,286,90250,36136,28910,14455
+0x10,Monkey,Monkey Bat,サルバット,140,,Monkey Cloak,Monkey Hat,Monkey Shoes,124,375,124,100,50
+0x11,Rat,Rat Lance,ネズミランス,66,,Rat Shirt,Rat Cap,Rat Sandals,66,250,124,100,50
+0x12,Dog,Dog Blade,イヌの剣,165,,Dog Jacket,Dog Goggles,Dog Clogs,170,1450,724,580,290
+0x13,Wolf,Wolf Knife,オオカミナイフ,221,,Wolf Vest,Wolf Mask,Wolf Boots,228,11100,5550,4440,2220
+0x14,Gorilla,Gorilla Punch,ゴリラパンチ,280,yes,Gorilla Cloak,Gorilla Cap,Gorilla Sneakers,250,27000,7224,5780,2890
+0x15,Hyena,Hyena Knife,ハイエナナイフ,151,,Hyena Vest,Hyena Hood,Hyena Shoes,146,350,174,140,70
+0x16,Snake,Snake Chain,ヘビチェーン,193,yes,Snake Bush Jacket,Snake Bush Hat,Snake Buskins,167,14100,2024,1620,810
+0x17,Hydra,Hydra Chakram,ヒドラチャクラ,342,yes,Hydra Coat,Hydra Helm,Hydra Clogs,298,422500,45124,36100,18050
+0x18,Tree Frog,Tree Frog Katana,モリアオ刀,203,yes,Tree Frog Suit,Tree Frog Hood,Tree Frog Flippers,260,22200,34624,27700,13850
+0x19,Maggot,Maggot Whip,ウジむち,192,,Maggot Jacket,Maggot Mask,Maggot Tabi,170,4775,762,610,305
+0x1a,Lizard,Lizard Saber,トカゲサーベル,203,,Lizard Shirt,Lizard Hardhat,Lizard Sandals,174,4725,1136,910,455
+0x1b,Dragonfly,Dragonfly Cutter,トンボカッター,84,yes,Dragonfly Sash,Dragonfly Goggles,Dragonfly Clogs,81,125,24,20,10
+0x1c,Moth,Moth Knife,モンシロナイフ,66,,Moth Dress,Moth Hairclip,Moth Talaria,76,475,300,240,120
+0x1d,Secret 0 (Flying Animal),Secret 0 (Flying Animal) Sword,秘密0（飛ぶ動物）ソード,166,,Secret 0 (Flying Animal) Sash,Secret 0 (Flying Animal) Hood,Secret 0 (Flying Animal) Sneakers,185,44400,23124,18500,9250
+0x1e,Bat,Bat Cane,コウモリ杖,160,yes,Bat Cloak,Bat Kasa,Bat Shoes,160,1775,886,710,355
+0x1f,Eagle,Eagle Saber,ワシサーベル,210,yes,Eagle Plume Vest,Eagle Mask,Eagle Sandals,190,5900,1062,850,425
+0x20,Ladybug,Ladybug Espada,ナナホシレピア,400,,Ladybug Sash,Ladybug Visor,Ladybug Tights,390,141175,42350,33880,16940
+0x21,Hornet,Hornet Needle,ハチニードル,170,yes,Hornet Jacket,Hornet Cover,Hornet Socks,172,2075,1036,830,415
+0x22,Crow,Crow Rapier,カラスレイピア,230,,Crow Cloak,Crow Hood,Crow Clogs,220,1875,562,450,225
+0x23,Cat,Cat Sickle,ネコシックル,300,,Cat Coat,Cat Band,Cat Socks,280,4425,886,710,355
+0x24,Pteranodon,Pteranodon Javelin,プテラノの長槍,375,,Pteranodon Cloak,Pteranodon Hardhat,Pteranodon Boots,388,412500,257500,206000,103000
+0x25,Butterfly,Butterfly Fan,アゲハ扇,70,,Butterfly Dress,Butterfly Hairclip,Butterfly Heels,62,11850,4436,3550,1775
+0x26,Eel,Eel Mace,ウナギ鎖鎌,235,,Eel Rocker,Eel Cover,Eel Fins,228,13550,3250,2600,1300
+0x27,Stingfish,Stingfish-pick,オコゼピック,140,,Stingfish Suit,Stingfish Mask,Stingfish Flippers,138,725,286,230,115
+0x28,Catfish,Catfish Hammer,ナマズハンマー,292,yes,Catfish Suit,Catfish Hardhat,Catfish Sneakers,336,15875,165000,132000,66000
+0x29,Giblet,Giblet Whip,ゾウモツむち,220,,Giblet Jersey,Giblet Beret,Giblet Tights,206,3400,450,360,180
+0x2a,Jellyfish,Jellyfish Stinger,クラゲ針,121,,Jellyfish Suit,Jellyfish Head,Jellyfish Shoes,96,1325,562,450,225
+0x2b,Shark,Shark Crusher,サメクラッシュ,260,,Shark Shirt,Shark Hardhat,Shark Boots,260,54000,7224,5780,2890
+0x2c,Stingray,Stingray Thorn,エイプリック,280,,Stingray Sash,Stingray Hood,Stingray Tights,325,8650,10162,8130,4065
+0x2d,Sea Lion,Sea Lion Hatchet,トドアックス,350,,Sea Lion Coat,Sea Lion Mask,Sea Lion Swim Shoes,330,330000,17624,14100,7050
+0x2e,Snakehead,Snakehead Nata,ライギョのナタ,341,,Snakehead Suit,Snakehead Mask,Snakehead Flippers,333,49500,13124,10500,5250
+0x2f,Shrimp,Shrimp Drill,エビドリル,138,,Shrimp Armor,Shrimp Cover,Shrimp Sandals,138,1900,950,760,380
+0x30,Secret 1 (Star-Shaped),Secret 1 (Star-Shaped) Club,秘密1（星がた）グラブ,243,,Secret 1 (Star-Shaped) Suit,Secret 1 (Star-Shaped)Hardhat,Secret 1 (Star-Shaped) Shoes,280,37000,11100,8880,4440
+0x31,Koi,Koi Naginata,コイがたな,241,,Koi Armor,Koi Goggles,Koi Clogs,219,9250,662,530,265
+0x32,Sea Cucumber,Sea Cucumber Yo-yo,ナマコヨーヨー,230,,Sea Cucumber Suit,Sea Cucumber Fez,Sea Cucumber Shoes,215,27000,7224,5780,2890
+0x33,Polar Bear,Polar Bear Katana,シロクマ刀,242,yes,Polar Bear Pelt,Polar Bear Hardhat,Polar Bear Tights,218,27000,4336,3470,1735
+0x34,Crab,Crab Scissors,カニばさみ,191,,Crab Armor,Crab Helm,Crab Shoes,154,900,250,200,100
+0x35,Squid,Squid Javelin,イカの長槍,95,,Squid Suit,Squid Turban,Squid Boots,90,350,36,30,15
+0x36,Crocodile,Crocodile Whip,ワニむち,256,,Crocodile Jacket,Crocodile Cap,Crocodile Boots,268,4425,1662,1330,665
+0x37,Dolphin,Dolphin Sword,イルカソード,165,yes,Dolphin Jersey,Dolphin Hood,Dolphin Fins,160,775,162,130,65
+0x38,Frog,Frog Katana,カエル刀,248,,Frog Sash,Frog Cap,Frog Clogs,260,3250,10162,8130,4065
+0x39,Hippo,Hippo Tomahawk,カバトマホーク,251,,Hippo Coat,Hippo Hardhat,Hippo Shoes,248,7100,1886,1510,755
+0x3a,Leech,Leech Whip,ヒルむち,209,,Leech Guards,Leech Sallet,Leech Heels,182,6500,686,550,275
+0x3b,Secret 2 (Green Fish),Secret 2 (Green Fish) Knife,秘密2（緑の魚）ナイフ,279,,Secret 2 (Green Fish) Sash,Secret 2 (Green Fish) Cover,Secret 2 (Green Fish) Sneakers,260,141175,27100,21680,10840
+0x3c,Secret 3 (Weird One),Secret 3 (Weird One) Taser,秘密3（変なヤツ）電撃棒,338,yes,Secret 3 (Weird One) Shirt,Secret 3 (Weird One) Hardhat,Secret 3 (Weird One) Boots,320,412500,110286,88230,44115
+0x3d,Anglerfish,Anglerfish Ax,アンコウ斧,271,,Anglerfish Suit,Anglerfish Helm,Anglerfish Boots,180,3750000,3386,2710,1355
+0x3e,Fox,Fox Blade,キツネの剣,262,,Fox Pelt,Fox Hood,Fox Clogs,271,10150,5074,4060,2030
+0x3f,Reindeer,Reindeer Horn,トナカイホーン,320,,Reindeer Coat,Reindeer Fez,Reindeer Tights,274,22575,5074,4060,2030
+0x40,Goat,Goat Knuckles,ヤギバグナグ,186,,Goat Jacket,Goat Cap,Goat Boots,182,2825,936,750,375
+0x41,Penguin,Penguin Espada,ペンギンレピア,182,,Penguin Suit,Penguin Hardhat,Penguin Sneakers,170,1700,362,290,145
+0x42,Bear,Bear Claw,クマの爪,340,,Bear Pelt,Bear Hood,Bear Shoes,310,84500,4062,3250,1625
+0x43,Weasel,Weasel Knife,イタチナイフ,169,,Weasel Shirt,Weasel Goggles,Weasel Clogs,160,1800,362,290,145
+0x44,Seal,Seal Sword,アザラシソード,336,,Seal Coat,Seal Helm,Seal Boots,299,33875,3612,2890,1445
+0x45,Octopus,Octopus Shoge,タコ足ウィップ,141,,Octopus Armor,Octopus Cover,Octopus Thigh-highs,152,2600,2886,2310,1155
+0x46,Otter,Otter Knife,カワウソナイフ,172,,Otter Shirt,Otter Hardhat,Otter Sneakers,152,2850,686,550,275
+0x47,Flea,Flea Pachinko,ノミパチンコ,96,,Flea Haramaki,Flea Sallet,Flea Clogs,88,325,62,50,25
+0x48,Armadillo,Armadillo Drill,アルマジドリル,300,,Armadillo Mail,Armadillo Cover,Armadillo Shoes,280,11550,2600,2080,1040
+0x49,Scorpion,Scorpion Needle,サソリニードル,291,yes,Scorpion Armor,Scorpion Goggles,Scorpion Cleats,298,11100,5550,4440,2220
+0x4a,Camel,Camel Paddle,ラクダ棍棒,205,,Camel Shirt,Camel Hood,Camel Clogs,234,5900,1324,1060,530
+0x4b,Pelican,Pelican Fist,ペリカンサック,155,,Pelican Cloak,Pelican Hood,Pelican Flippers,141,28900,10836,8670,4335
+0x4c,Kangaroo,Kangaroo Rod,カンガルロッド,164,,Kangaroo Coat,Kangaroo Hood,Kangaroo Sneakers,168,1075,536,430,215
+0x4d,Spider,Spider Chain,クモチェーン,300,,Spider Sweater,Spider Cap,Spider Tabi,280,206750,27500,22000,11000
+0x4e,Centipede,Centipede Saw,ムカデのこぎり,252,yes,Centipede Armor,Centipede Hat,Centipede Sandals,291,21175,35250,28200,14100
+0x4f,Rabbit,Rabbit Knife,ウサギナイフ,115,,Rabbit Coat,Rabbit Cap,Rabbit Boots,98,275,112,90,45
+0x50,Zebra,Zebra Rod,ゼブラロッド,176,,Zebra Shirt,Zebra Cap,Zebra Tights,193,9250,2774,2220,1110
+0x51,Locust,Locust Bat,バッタバット,120,,Locust Armor,Locust Visor,Locust Legwarmers,116,2425,2424,1940,970
+0x52,Chicken,Chicken Beak,ニワトリビーク,173,,Chicken Sash,Chicken Mask,Chicken Leggings,167,2775,886,710,355
+0x53,Cicada,Cicada Crusher,セミクラッシュ,180,yes,Cicada Jumper,Cicada Helm,Cicada Clogs,180,11825,3550,2840,1420
+0x54,Buffalo,Buffalo Horn,バファロホーン,380,,Buffalo Coat,Buffalo Cover,Buffalo Shoes,298,262500,56374,45100,22550
+0x55,Antelope,Antelope Blade,カモシカの剣,232,,Antelope Cloak,Antelope Hood,Antelope Boots,218,9250,2774,2220,1110
+0x56,Daphnia,Daphnia Drill,ミジンコドリル,128,yes,Daphnia Dress,Daphnia Hood,Daphnia Stompers,130,3100,1236,990,495
+0x57,Mole,Mole Knife,モグラナイフ,102,,Mole Coat,Mole Hardhat,Mole Moccasins,93,75,50,40,20
+0x58,Secret 4 (Little One),Secret 4 (Little One) Paw,秘密4（小さいの）クロー,293,,Secret 4 (Little One) Vest,Secret 4 (Little One) Hood,Secret 4 (Little One) Zori,264,46250,13874,11100,5550
+0x59,Tanuki,Tanuki Cleaver,タヌキ包丁,158,,Tanuki Vest,Fez,Tanuki Moccasins,154,2425,262,210,105
+0x5a,Anteater,Anteater Knife,アリクイナイフ,182,,Anteater Cloak,Anteater Hardhat,Anteater Sneakers,174,375,50,40,20
+0x5b,Leopard,Leopard Saber,ヒョウサーベル,221,,Leopard Flannel,Leopard Mask,Leopard Boots,230,5550,2224,1780,890
+0x5c,Cockroach,Cockroach Lance,ゴキブリランス,200,,Cockroach Jersey,Cockroach Mask,Cockroach Heels,325,1075,900,720,360
+0x5d,Chameleon,Chameleon Knife,カメレオナイフ,276,,Chameleon Suit,Chameleon Cover,Chameleon Shoes,290,13875,6936,5550,2775
+0x5e,Secret 5 (Horned Guy),Secret 5 (Horned Guy) Horn,秘密5（ツノ野郎）ホーン,520,,Secret 5 (Horned Guy) Rocker,Secret 5 (Horned Guy) Mask,Secret 5 (Horned Guy) Shoes,480,460000,65624,52500,26250
+0x5f,Duck,Duck Hatchet,アヒルアックス,162,,Duck Threads,Duck Cover,Duck Heels,136,1250,300,240,120
+0x60,Peacock,Peacock Fan,クジャク扇,156,,Peacock Dress,Peacock Ribbon,Peacock Shoes,155,1175,1062,850,425
+0x61,Turtle,Turtle Hammer,カメハンマー,323,,Turtle Armor,Turtle Helm,Turtle Shoes,301,17325,3462,2770,1385
+0x62,Sea Slug,Sea Slug Lance,ウミウシランス,160,,Sea Slug Suit,Sea Slug Hood,Sea Slug Sneakers,150,1875,424,340,170
+0x63,Snail,Snail Katana,マイマイ刀,280,,Snail Mail,Snail Hardhat,Snail Shoes,320,4325,2162,1730,865
+0x64,Clam,Clam Ax,ハマグリ斧,335,,Clam Shell,Clam Cover,Clam Shoes,320,17325,3462,2770,1385
+0x65,Ostrich,Ostrich Club,ダチョウグラブ,70,,Ostrich Shirt,Ostrich Hood,Ostrich Sneakers,80,125,74,60,30
+0x66,Swallow,Swallow Cutter,ツバメカッター,200,yes,Swallow Suit,Swallow Goggles,Swallow Clogs,198,2850,1136,910,455
+0x67,Squirrel,Squirrel Needle,リスニードル,86,yes,Squirrel Waistcoat,Squirrel Goggles,Squirrel Slippers,79,25,12,10,5
+0x68,Lemur,Lemur Nail,アイアイネイル,168,,Lemur Vest,Lemur Mask,Lemur Tights,182,34700,17350,13880,6940
+0x69,Secret 6 (Super Strong One),Big Secret 6 (Super Strong One),ビッグ秘密6（超強いの）,450,yes,Secret 6 (Super Strong One) Mail,Secret 6 (Super Strong One) Helm,Secret 6 (Super Strong One) Boots,450,1051825,525912,420730,210365
+0x6a,Cobra,Cobra Fist,コブラサック,305,yes,Cobra Coat,Cobra Mask,Cobra Clogs,288,70575,35286,28230,14115
+0x6b,Horse,Horse Nunchucks,ウマヌンチャク,145,,Horse Jacket,Horse Cap,Horse Creepers,131,2950,1474,1180,590
+0x6c,Whale,Whale Weiss,クジラヴァイス,800,,Whale Armor,Whale Cap,Whale Clogs,750,45917750,11754936,9403950,4701975
+0x6d,Secret 7 (Glowing One),Secret 7 (Glowing One) Knife,秘密7（光るヤツ）ナイフ,333,yes,Secret 7 (Glowing One)wear,Secret 7 (Glowing One) Cover,Secret 7 (Glowing One) Heels,311,17775,7100,5680,2840
+0x6e,Panda,Panda Punch,パンダパンチ,650,,Panda Sweater,Panda Hat,Panda Moccasins,620,71746475,11479436,9183550,4591775
+0x6f,Earthworm,Earthworm Whip,ミミズウィップ,180,,Earthworm Jersey,Earthworm Goggles,Earthworm Gaiters,173,13550,5424,4340,2170
+0x70,Stag Beetle,Stag Beetle Shears,クワガタバサミ,255,,Stag Beetle Mail,Stag Beetle Cover,Stag Beetle Shoes,222,1775,4550,3640,1820
+0x71,Turban Shell,Turban Shell Fist,サザエサック,321,,Turban Shell Armor,Turban Shell Head,Turban Shell Shoes,331,56475,16936,13550,6775
+0x72,Blowfish,Blowfish Gimlet,フグギムレット,266,,Blowfish Jersey,Blowfish Sallet,Blowfish Sandals,280,169400,52936,42350,21175
+0x73,Impala,Impala Horn,インパラホーン,198,yes,Impala Shirt,Impala Helm,Impala Boots,203,3700,1474,1180,590
+0x74,Cricket,Cricket Rapier,スズムシレピア,66,,Cricket Haori,Cricket Beret,Cricket Geta,76,500,124,100,50
+0x75,Sunfish,Sunfish Paddle,マンボウ棍棒,274,,Sunfish Cloak,Beanie,Sunfish Boots,253,42350,9036,7230,3615
+0x76,Pond Skater,Pond Skater Stinger,アメンボ針,204,yes,Pond Skater Shirt,Skullcap,Pond Skater Fins,211,2850,950,760,380
+0x77,Hermit Crab,Hermit Crab Drill,ヤドカリドリル,166,,Hermit Crab Sash,Hermit Crab Head,Hermit Crab Shoes,160,75,24,20,10
+0x78,Owl,Owl Beak,フクロウビーク,238,yes,Owl Coat,Owl Fez,Owl Tights,224,7400,2962,2370,1185

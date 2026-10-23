@@ -1,0 +1,114 @@
+item_code,name_en,name_jp,class,price_g,flags,game_text_en,game_text_jp,effect_decoded,spoils_into
+0x0500,Hooligan C,ホレギンＣ,Drug,60,000,Drug Effects unknown/Risk: TBD,／医薬品 効果不明／危険度不明,"Battle only (outside battle just a flavour line, ""…gasped for air""): effect 25 = one random stat ×1.125 for the rest of the battle: rand_scaled(3) picks ATK / DEF / SPD (≈1/3 each; HIT on a 1/32768 roll), Δ = +2 (mult × (256+16Δ)/256, clamp ×0.5–×1.5, stacks multiplicatively); no status timer, so it never wears off (0xb9 0xf27d, Δ table 0x121e entry 0xe1; see docs/battle-damage.md)",
+0x0501,Shufelmin A,ビンビンＡ,Drug,84,000,Drug Effects unknown/Risk: TBD,／医薬品 効果不明／危険度不明,Same as Hooligan C (different flavour line),
+0x0502,Traio DX,ナイトＤＸ,Drug,48,000,Drug Effects unknown/Risk: TBD,／医薬品 効果不明／危険度不明,Same as Hooligan C (different flavour line),
+0x0503,Gambogam 7,カムカム７,Drug,36,000,Drug Effects unknown/Risk: TBD,／医薬品 効果不明／危険度不明,Same as Hooligan C (different flavour line),
+0x0504,Shake-up S,アッハンＳ,Drug,40,000,Drug Effects unknown/Risk: TBD,／医薬品 効果不明／危険度不明,Same as Hooligan C (different flavour line),
+0x0505,RecoTab 50,回復タブ５０,Drug,16,000,Drug 50 avg. HP recovery/Risk: 0%,／医薬品 ＨＰ平均50回復/危険度０％,Heal 40 + r(20) HP (avg 50),
+0x0506,RecoTab 100,回復タブ１００,Drug,60,000,Drug 100 avg. HP recovery/Risk: 0%,／医薬品 ＨＰ平均100回復/危険度０％,Heal 80 + r(40) HP (avg 100),
+0x0507,Hustle II,ハッスルⅡ,Drug,120,000,Drug ATK boost/Risk: 80% For combat use only,／医薬品 攻撃力ＵＰ／危険度80％ 戦闘時、敵にのみ使用可,"Battle only, on an enemy: the target falls asleep for the rest of the battle (gb182 flag 0x80, D 63: it skips every turn and is hit automatically; damage doesn't wake it, only Detox Pill / Lick / First Aid cure it) and its ATK becomes ×1.5 permanently (effect 26, Δ +8). No hit roll, so this always works on a first use. The level roll (rand()&0xFF < level × 8, ""body went numb"") only matters if ATK was already ×1.5, and then applies the same sleep (0xb9 0xccab; decomp, not seen in battle)",
+0x0508,Hustle III,ハッスルⅢ,Drug,1200,000,Drug ATK boost/Risk: 79% For combat use only,／医薬品 攻撃力ＵＰ／危険度79％ 戦闘時、敵にのみ使用可,Same as Hustle II; its fallback roll is rand()&0xFF < level × 1,
+0x0509,Detox Pill,解毒カプセル,Drug,20,000,Drug Status recovery/Risk: 0%,／医薬品 状態異常の回復／危険度０％,Cure status ailments (effect 7),
+0x050a,Rotten Meat,腐肉,Rotten meat,0,010,Edible meat Effects unknown/Risk: 75%,／食用肉類 効果不明／危険度７５％,"Heal (rand()&0xFF) HP, then 10 damage + formic-acid status (effect 14)",
+0x050b,Rotten Meat,腐肉,Rotten meat,0,010,Edible meat Effects unknown/Risk: 75%,／食用肉類 効果不明／危険度７５％,Damage 1 + r(32) HP,
+0x050c,Rotten Meat,腐肉,Rotten meat,0,010,Edible meat Effects unknown/Risk: 75%,／食用肉類 効果不明／危険度７５％,Restore r(maxBP/4) BP,
+0x050d,Rotten Meat,腐肉,Rotten meat,0,010,Edible meat Effects unknown/Risk: 75%,／食用肉類 効果不明／危険度７５％,Confusion-type status (effect 21 in battle / 18 outside),
+0x050e,Red Bouquet,真紅の花たば,Other (bouquet),10,110,Other — Present,／その他 — プレゼント,No use effect found (gift item; wilts),Wilted Flower
+0x050f,White Bouquet,純白の花たば,Other (bouquet),10,110,Other — Present,／その他 — プレゼント,No use effect found (gift item; wilts),Wilted Flower
+0x0510,Yellow Bouquet,黄色の花たば,Other (bouquet),10,110,Other — Present,／その他 — プレゼント,No use effect found (gift item; wilts),Wilted Flower
+0x0511,Wilted Flower,枯れた花,Other (bouquet),0,110,Other — Trash,／その他 — ゴミ,None (trash),
+0x0512,Lab Key,研究室の鍵,Key,0,101,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x0513,Basement Key,本部地下の鍵,Key,0,100,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x0514,Secret Key,禁断の鍵,Key,0,100,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x0515,Church Key,教会の鍵,Key,0,100,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x0516,Mansion Key,お屋敷の鍵,Key,0,100,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x0517,Storage Key,納戸の鍵,Key,0,101,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x0518,Vault Key,金庫室の鍵,Key,660,100,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x0519,Backstage Key,楽屋の鍵,Key,440,100,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x051a,Warehouse Key,倉庫の鍵,Key,90,100,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x051b,Precious Key,思い出の鍵,Key,240,100,Key Unlocks a door/Risk: 0% For trek use only,／鍵 特定の扉を解錠／危険度０％ 移動中のみ使用可,Opens a specific door,
+0x051c,Sketchy Candy,いびつなチョコ,Food,6,000,Foodstuffs HP recovery/Risk: 0%,／一般食品 ＨＰ回復／危険度０％,Heal 20 + r(40) HP; Ken (target 0) is fully healed instead,
+0x051d,Buffet Banana,満腹バナナ,Food,4,010,Foodstuffs HP recovery/Risk: 0%,／一般食品 ＨＰ回復／危険度０％,Heal 20 + r(20) HP,
+0x051e,Ribhorn Flower,リボンの花,Herb / berry,920,010,Herb /Risk: 0% — K.O. recovery,／薬用植物 ／危険度0％ — 戦闘不能から回復,"Revive from K.O.: clears status, HP and BP set to max",
+0x051f,Red Dicot,赤なずな,Herb / berry,4840,010,Herb /Risk: 0% — HP recovery,／薬用植物 ／危険度0％ — ＨＰ回復,Heal maxHP×3/8 + r(maxHP/4) HP (≈ half of max HP),Wilted Flower
+0x0520,Red Turnip,赤すずな,Herb / berry,40,010,Herb /Risk: 100% — Acid in combat,／薬用植物 ／危険度100％ — 戦闘中はギ酸,10 damage + formic-acid status (effect 14),Wilted Flower
+0x0521,Red Daikon,赤すずしろ,Herb / berry,30,010,Herb /Risk: 100% — Off course,／薬用植物 ／危険度100％ — 迷走,Confusion-type status (effect 21 in battle / 18 outside),Wilted Flower
+0x0522,Blue Bellflower,青ききょう,Herb / berry,3160,010,Herb /Risk: 0% — BP recovery,／薬用植物 ／危険度0％ — ＢＰ回復,Restore maxBP×3/8 + r(maxBP/4) BP,Wilted Flower
+0x0523,Blue Dianthus,青なでしこ,Herb / berry,12,010,Herb /Risk: 100% — BP to 0,／薬用植物 ／危険度100％ — ＢＰ０に,Lose all BP,Wilted Flower
+0x0524,Bluegrass,青おばな,Herb / berry,7260,010,Herb /Risk: 0% — Boost max HP,／薬用植物 ／危険度0％ — ＨＰの最大値ＵＰ,"Nothing: the item is eaten but no use code exists for it (game text says ""Boost max HP""; item-use entry 0xb9 0xca38 has no case for 0x524–0x527; Bluegrass checked in game)",Wilted Flower
+0x0525,Blue Chickweed,青はこべ,Herb / berry,6600,010,Herb /Risk: 0% — Boost max ATK,／薬用植物 ／危険度0％ — 攻撃力の最大値ＵＰ,"Nothing: the item is eaten but no use code exists for it (game text says ""Boost max ATK""; item-use entry 0xb9 0xca38 has no case for 0x524–0x527; Bluegrass checked in game)",Wilted Flower
+0x0526,Red Chickweed,赤はこべ,Herb / berry,4840,010,Herb /Risk: 0% — Boost max DEF,／薬用植物 ／危険度0％ — 守備力の最大値ＵＰ,"Nothing: the item is eaten but no use code exists for it (game text says ""Boost max DEF""; item-use entry 0xb9 0xca38 has no case for 0x524–0x527; Bluegrass checked in game)",Wilted Flower
+0x0527,Blue Gentian,青りんどう,Herb / berry,4440,010,Herb /Risk: 0% — Boost max SPD,／薬用植物 ／危険度0％ — 素早さの最大値ＵＰ,"Nothing: the item is eaten but no use code exists for it (game text says ""Boost max SPD""; item-use entry 0xb9 0xca38 has no case for 0x524–0x527; Bluegrass checked in game)",Wilted Flower
+0x0528,Raspberries,赤い果実,Herb / berry,10,010,Herb /Risk: 100% — Pheromones,／薬用植物 ／危険度100％ — フェロモン,Pheromones (effect 16),Rotten Berries
+0x0529,Snowberries,白い果実,Herb / berry,8,010,Herb /Risk: 100% — Off course,／薬用植物 ／危険度100％ — 迷走,Confusion-type status (effect 21 in battle / 18 outside),Rotten Berries
+0x052a,Blackberries,黒い果実,Herb / berry,244,010,Herb /Risk: 0% — HP recovery,／薬用植物 ／危険度0％ — ＨＰ回復,Heal maxHP/16 + r(maxHP/16) HP,Rotten Berries
+0x052b,Blueberries,青い果実,Herb / berry,2,010,Herb /Risk: 100% — Poison,／薬用植物 ／危険度100％ — 毒,Damage 1 + r(16) HP (poison),Bloodberries
+0x052c,Bloodberries,鮮血の果実,Herb / berry,11520,010,Herb /Risk: 0% — HP+BP full recovery,／薬用植物 ／危険度0％ — ＨＰ、ＢＰ全快,Full HP and BP,Rotten Berries
+0x052d,Rotten Berries,腐った果実,Herb / berry,2,010,Herb /Risk: 50% — Effects unknown,／薬用植物 ／危険度50％ — 効果不明,Coin flip: 50% heal maxHP/8 + r(maxHP/8) HP and same-ratio BP; 50% that much damage and BP loss,
+0x052e,Prickly Egg,トゲトゲ卵,Animal egg,498,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x052f,Squishy Egg,プヨプヨ卵,Animal egg,246,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0530,Bulky Egg,ムチムチ卵,Animal egg,336,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0531,Shiny Egg,ツルツル卵,Animal egg,6,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0532,Gritty Egg,ザラザラ卵,Animal egg,398,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0533,Jumbo Egg,巨大な卵,Animal egg,4980,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0534,Big Egg,大きな卵,Animal egg,594,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0535,Rattling Egg,カラカラ卵,Animal egg,98,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0536,Sparkly Egg,ピカピカ卵,Animal egg,49890,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0537,Small Egg,小さな卵,Animal egg,110,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0538,Tiny Egg,プチプチ卵,Animal egg,6,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x0539,Round Egg,クリクリ卵,Animal egg,1130,010,Animal egg 50 avg HP recovery/Risk: 0%,／動物の卵 ＨＰ平均５０回復／危険度０％,Heal 10 + r(80) HP (avg 50); can be hatched (egg centre),
+0x053a,Hot Dung,熱いウンチ,Animal feces,0,010,Animal feces Effects unknown/Risk: Unknown,／動物の糞 効果不明／危険度不明,Damage 1 + r(16) HP,
+0x053b,Tidy Dung,きれいなウンチ,Animal feces,0,010,Animal feces Effects unknown/Risk: Unknown,／動物の糞 効果不明／危険度不明,Damage 1 + r(16) HP,Dry Dung
+0x053c,Wonder Dung,ステキなウンチ,Animal feces,0,010,Animal feces Effects unknown/Risk: Unknown,／動物の糞 効果不明／危険度不明,Damage 1 + r(16) HP,Dry Dung
+0x053d,Praiseworthy Dung,立派なウンチ,Animal feces,0,010,Animal feces Effects unknown/Risk: Unknown,／動物の糞 効果不明／危険度不明,Damage 1 + r(16) HP,Dry Dung
+0x053e,Warm Dung,暖かなウンチ,Animal feces,0,010,Animal feces Effects unknown/Risk: Unknown,／動物の糞 効果不明／危険度不明,Damage 1 + r(16) HP,Dry Dung
+0x053f,Dry Dung,乾いたウンチ,Animal feces,0,010,Animal feces Effects unknown/Risk: Unknown,／動物の糞 効果不明／危険度不明,Damage 1 + r(16) HP,
+0x0540,Disposable Tent,使い捨てテント,Hunting gear,20,100,Hunting gear /Risk: % — Party HP+BP recovery,／狩猟用品 ／危険度％ — 全員のＨＰ、ＢＰ回復,Field: camp (field event 0x85) — party HP+BP recovery,
+0x0541,Chanel No.5,シャニルＮｏ５,Hunting gear,320,100,Hunting gear /Risk: % — Lures animals in,／狩猟用品 ／危険度％ — 動物が寄ってくる,Field: lure animals (field event 0x8b),
+0x0542,Neutralizer,中和スプレー,Hunting gear,80,100,Hunting gear /Risk: % — Neutralizes strange odors,／狩猟用品 ／危険度％ — 異常な臭いの中和,Field: neutralise odours (field event 0x8d),
+0x0543,Cover Spray,迷彩スプレー,Hunting gear,98,100,Hunting gear /Risk: % — Hides presence from animals,／狩猟用品 ／危険度％ — 動物に気づかれない,Field: hide from animals (field event 0x94),
+0x0544,Rental Trap,貸しワナ,Hunting gear,0,111,Hunting gear /Risk: % — Stationary capture device,／狩猟用品 ／危険度％ — 据え置き型捕獲具,"Field: set a trap (field event 0x88); rental, must be returned",
+0x0545,Makeshift Trap,自前のワナ,Hunting gear,2,110,Hunting gear /Risk: % — Stationary capture device,／狩猟用品 ／危険度％ — 据え置き型捕獲具,Field: set a trap (field event 0x88),
+0x0546,Escape Device,脱出ユニット,Hunting gear,560,100,"Hunting gear /Risk: % — Escape from caves, dungeons, etc.",／狩猟用品 ／危険度％ — 洞窟等からの脱出,Field: escape cave/dungeon (field event 0x8e),
+0x0547,Flash Beacon,回収ビーコン,Hunting gear,3960,100,Hunting gear /Risk: % — Return to town,／狩猟用品 ／危険度％ — 町への帰還,Field: return to town (field event 0x95),
+0x0548,Blue Beastman Doll,青の獣人像,Rare item,84000,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0549,Red Beastman Doll,赤の獣人像,Rare item,56000,100,Rare item Effects unknown,／珍品 効果不明,,
+0x054a,Black Beastman Doll,黒の獣人像,Rare item,133200,100,Rare item Effects unknown,／珍品 効果不明,,
+0x054b,White Beastman Doll,白の獣人像,Rare item,66600,100,Rare item Effects unknown,／珍品 効果不明,,
+0x054c,Gold Beastman Doll,金の獣人像,Rare item,190000,100,Rare item Effects unknown,／珍品 効果不明,,
+0x054d,Silver Beastman Doll,銀の獣人像,Rare item,155400,100,Rare item Effects unknown,／珍品 効果不明,,
+0x054e,Ya Basarde's Ring,ヤバサデの指輪,Rare item,37200,100,Rare item Effects unknown,／珍品 効果不明,,
+0x054f,Ziade's Ring,ツィアデの指輪,Rare item,48840,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0550,Harabade's Ring,ハラバデの指輪,Rare item,27000,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0551,Adamarde's Ring,アダマデの指輪,Rare item,31400,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0552,Ya Basa's Ring,ヤバサの指輪,Rare item,33600,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0553,Zia's Ring,ツィアの指輪,Rare item,44880,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0554,Haraba's Ring,ハラバの指輪,Rare item,30600,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0555,Adamar's Ring,アダマの指輪,Rare item,35000,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0556,N. Ghiel's Crown,ン・ギエルの冠,Rare item,48800,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0557,M. Peror's Crown,ン・ベラーの冠,Rare item,37200,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0558,R. Q'duch's Crown,ン・ケモルの冠,Rare item,62600,100,Rare item Effects unknown,／珍品 効果不明,,
+0x0559,R. Iki's Crown,ン・ディンの冠,Rare item,31600,100,Rare item Effects unknown,／珍品 効果不明,,
+0x055a,M. Bret's Crown,ン・エリムの冠,Rare item,55200,100,Rare item Effects unknown,／珍品 効果不明,,
+0x055b,Beastman Necklace,獣人の首飾り,Rare item,7000,100,Rare item Effects unknown,／珍品 効果不明,,
+0x055c,Champion Belt,王者のベルト,Rare item,0,100,Rare item Effects unknown,／珍品 効果不明,,
+0x055d,Champion Medal,王者のメダル,Rare item,0,100,Rare item Effects unknown,／珍品 効果不明,,
+0x055e,Champion Card,王者の表彰状,Rare item,0,100,Rare item Effects unknown,／珍品 効果不明,,
+0x055f,Wedding Gift,結納セット,Luxury item,1000,100,"Luxury item Makes you feel rich No use, but still cool",／高級品 金持ち気分 移動中、たまに眺める,,
+0x0560,Vintage Coins,大判小判,Luxury item,72000,100,"Luxury item Makes you feel rich No use, but still cool",／高級品 金持ち気分 移動中、たまに眺める,,
+0x0561,Jumbo Bullion,超大金塊,Luxury item,176000,100,"Luxury item Makes you feel rich No use, but still cool",／高級品 金持ち気分 移動中、たまに眺める,,
+0x0562,Big Bullion,大金塊,Luxury item,24400,100,"Luxury item Makes you feel rich No use, but still cool",／高級品 金持ち気分 移動中、たまに眺める,,
+0x0563,Bullion,金塊,Luxury item,12800,100,"Luxury item Makes you feel rich No use, but still cool",／高級品 金持ち気分 移動中、たまに眺める,,
+0x0564,Memorin Z,メモリンＺ,Valuables / delivery,0,101,Valuables Better not lose this!,／貴重品 なくすと後悔する,,
+0x0565,Radar,電波受信機,Valuables / delivery,0,101,Valuables Better not lose this!,／貴重品 なくすと後悔する,Field: radar (field event 0x84) in some locations only,
+0x0566,Taro's Collar,太郎の首輪,Valuables / delivery,160000,100,Valuables Better not lose this!,／貴重品 なくすと後悔する,,
+0x0567,Floppy Disc,フロッピー,Valuables / delivery,0,111,Valuables Better not lose this!,／貴重品 なくすと後悔する,,
+0x0568,Fang's Fang,ファングの牙,Valuables / delivery,4000,100,Valuables Better not lose this!,／貴重品 なくすと後悔する,,
+0x0569,Flowerseed Bag,花の種パック,Other,20,100,Other — Present,／その他 — プレゼント,,
+0x056a,Tissues,ティッシュ,Other,2,100,Other — Present,／その他 — プレゼント,Field: special camp use (0xb8 0x4315),
+0x056b,Free-fly Pass,エアフリーパス,Other,28000,100,Other — Free birdline pass,／その他 — バードライン無料,,
+0x056c,Lottery Ticket,宝クジ,Other,0,100,Other — Save for the lottery!,／その他 — 抽選までワクワク,"Lottery ticket (OzPort, 100 G, you pick the number): prizes 100,000 / 50,000 / 10,000 / 1,000 / 100 G — see docs/lottery.md",
+0x056d,Lottery Ticket,宝クジ,Other,0,100,Other — Save for the lottery!,／その他 — 抽選までワクワク,Lottery ticket (see above),
+0x056e,Lottery Ticket,宝クジ,Other,0,100,Other — Save for the lottery!,／その他 — 抽選までワクワク,Lottery ticket (see above),
+0x056f,Scrap Paper,紙クズ,Other,0,100,Other — Trash,／その他 — ゴミ,,
+0x0570,Sentimental Book,思い出の本,Other,112,100,"Other — Book about ""Earth""",／その他 — 「地球」が載っている本,Field: read it (2 messages),
